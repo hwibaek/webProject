@@ -1,0 +1,19 @@
+#searchBox {
+    background-color: rgba(1, 1, 1, 0.5);
+    display: inline-flex;
+}
+input[type="text"] {
+    color: white;
+    border: 0;
+    background-color: transparent;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+select {
+    background-color: transparent;
+    border: 0;
+}
+select:focus {
+    outline: none;
+}
